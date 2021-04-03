@@ -14,6 +14,8 @@ body {
     font-family: 'Raleway', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    color: white;
+    background: #222;
 }
 a {
     color: inherit;
@@ -21,20 +23,41 @@ a {
 header {
     width: 100%;
     height: 20vh;
+    padding: 40px;
+}
+h1 {
+    font-size: 80px;
+    display: inline-block;
+}
+h2 {
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 section {
-    width: 100%;
-    height: 40vh;
-    display: flex;
     background-attachment: fixed;
     background-size: cover;
+}
+section a {
+    display: block;
+    width: 100%;
+    height: 40vh;
+    padding: 40px;
 }
 section.stars {
     background-image: url(images/stars.png);
 }
 section.hop {
     background-image: url(images/hop.png);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 section.arbo {
     background-image: url(images/arbo.png);
+}
+section h3 {
+    font-size: 40px;
+}
+section p {
+    text-decoration: none;
+    font-size: 20px;
 }
